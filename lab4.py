@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from keras.api._v2.keras.preprocessing import image
 
-bot = telebot.TeleBot("6033305186:AAECFX5-1aV_pqdBdaUyHnv1noM7iXhGS1c")
+bot = telebot.TeleBot("your_Telebot_ID_here")
 global flag
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
